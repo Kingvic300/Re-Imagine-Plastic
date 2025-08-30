@@ -127,21 +127,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
-            {/* Impact Statement */}
-            <div className="text-center mt-8 pt-8 border-t border-white/10">
-              <div className="slide-in-up stagger-3">
-                <p className="text-white/60 text-xs">
-                  🌍 Together we’ve diverted 50,000+ pieces of plastic from
-                  landfills & oceans • Empowered 10,000+ youth • Created 500+
-                  works of art •
-                  <span className="text-accent-yellow font-semibold">
-                  {" "}
-                    And we’re just getting started!
-                </span>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </footer>

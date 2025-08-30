@@ -110,8 +110,16 @@ export const teamMembers: TeamMember[] = [
         bio: "Opemipo drives ReImagine Plastics with a passion for climate action and youth empowerment, turning ideas into projects and making every plastic count as art, not waste.",
         longBio:
             "Opemipo Akinwumi, founder and project lead of ReImagine Plastics, channels her passion for climate action and creative education into transforming communities through art and upcycling. With a background in environmental advocacy, she empowers young people to see plastic waste as opportunity, driving change toward a cleaner, greener future.",
-        achievements: ["UN Young Champion Award 2023", "Featured in National Geographic", "TEDx Speaker"],
-        expertise: ["Environmental Art", "Youth Education", "Community Organizing"],
+        achievements: [
+            "UN Young Champion Award 2023",
+            "Featured in National Geographic",
+            "TEDx Speaker"
+        ],
+        expertise: [
+            "Environmental Art",
+            "Youth Education",
+            "Community Organizing"
+        ],
         social: {
             instagram: "@sarahchenart",
             twitter: "@sarahchenenviro",
@@ -128,8 +136,16 @@ export const teamMembers: TeamMember[] = [
         bio: "Ayodeji, the tech lead at ReImagine Plastics, leverages his passion for AI and programming to build innovative solutions that keep the project scalable and impactful.",
         longBio:
             "Ayodeji Adesegun is the tech brain behind ReImagine Plastics, using AI, machine learning, and software development to build tools that drive growth, efficiency, and digital sustainability. For him, every line of code is a step toward a cleaner world.",
-        achievements: ["Youth Leadership Award 2022", "Organized 50+ Community Cleanups", "Mentor to 200+ Youth"],
-        expertise: ["Youth Mentoring", "Community Outreach", "Program Development"],
+        achievements: [
+            "Youth Leadership Award 2022",
+            "Organized 50+ Community Cleanups",
+            "Mentor to 200+ Youth"
+        ],
+        expertise: [
+            "Youth Mentoring",
+            "Community Outreach",
+            "Program Development"
+        ],
         social: {
             instagram: "@marcusforchange",
             twitter: "@marcuscleanup",
@@ -145,8 +161,16 @@ export const teamMembers: TeamMember[] = [
         image: Victor,
         bio: "Victor is the coder behind ReImagine Plastics, building the web and backend systems that power the project’s vision.",
         longBio: "Victor Oladimeji is the tech mind behind ReImagine Plastics, building web and backend systems that make recycling interactive and accessible. His work empowers young people to become agents of change, while he continues creating ideas that make tech work for the planet.",
-        achievements: ["Published 30+ Research Papers", "Ocean Conservation Award 2021", "Scientific Advisor to UN"],
-        expertise: ["Marine Biology", "Plastic Pollution Research", "Scientific Communication"],
+        achievements: [
+            "Published 30+ Research Papers",
+            "Ocean Conservation Award 2021",
+            "Scientific Advisor to UN"
+        ],
+        expertise: [
+            "Marine Biology",
+            "Plastic Pollution Research",
+            "Scientific Communication"
+        ],
         social: {
             instagram: "@drpatelocean",
             twitter: "@aishamarinelab",
@@ -162,13 +186,21 @@ export const teamMembers: TeamMember[] = [
         image: Pelumi,
         bio: "Oluwapelumi is the creative force at ReImagine Plastics, transforming waste into art and inspiring young people to explore sustainable design.",
         longBio: "Oluwapelumi Oyetade, creative lead of ReImagine Plastics, blends art and sustainability to show young people the potential in plastic waste. She designs training materials and art pieces that inspire creativity, change mindsets, and spark action.",
-        achievements: ["200+ School Partnerships", "Community Builder Award 2023", "Trilingual Program Leader"],
-        expertise: ["Partnership Development", "Cultural Competency", "Nonprofit Management"],
+        achievements: [
+            "200+ School Partnerships",
+            "Community Builder Award 2023",
+            "Trilingual Program Leader"
+        ],
+        expertise: [
+            "Partnership Development",
+            "Cultural Competency",
+            "Nonprofit Management"
+        ],
         social: {
-            instagram: "@elenapartnerships",
-            twitter: "@elenaconnects",
-            linkedin: "elena-rodriguez-partnerships",
-            email: "elena@reimagineplastics.org",
+            instagram: "https://www.instagram.com/pelumi.oyetade?igsh=MXF1OWNuajZmZ3k0dQ%3D%3D&utm_source=qr",
+            twitter: "https://x.com/lumideyforyou?s=21",
+            linkedin: "https://www.linkedin.com/in/pelumioyetade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            email: "oyetadejennifer@gmail.com",
         },
     },
     {
@@ -176,11 +208,19 @@ export const teamMembers: TeamMember[] = [
         name: "Opeyemi Afuwape",
         title: "Community Connector",
         location: "Bariga Lagos, Nigeria",
-        image: Opeyemi,
+        image: Victor,
         bio: "Opeyemi is the heart of ReImagine Plastics, building community partnerships and ensuring the project meets local needs while creating global impact.",
         longBio: "Opeyemi Afuwape, community connector for ReImagine Plastics, builds partnerships with schools, organizations, and leaders to empower youth as changemakers. With her background in community development and education, she ensures the project remains rooted in local needs while driving lasting impact.",
-        achievements: ["200+ School Partnerships", "Community Builder Award 2023", "Trilingual Program Leader"],
-        expertise: ["Partnership Development", "Cultural Competency", "Nonprofit Management"],
+        achievements: [
+            "200+ School Partnerships",
+            "Community Builder Award 2023",
+            "Trilingual Program Leader"
+        ],
+        expertise: [
+            "Partnership Development",
+            "Cultural Competency",
+            "Nonprofit Management"
+        ],
         social: {
             instagram: "@elenapartnerships",
             twitter: "@elenaconnects",

@@ -26,23 +26,6 @@ const AboutUs = () => {
                   fostering the next generation of environmental leaders.
                 </p>
               </div>
-
-              <div className="slide-in-left stagger-2">
-                <div className="flex flex-wrap gap-9 mt-9">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-primary">10K+</div>
-                    <div className="text-sm text-muted-foreground">
-                      Youth Empowered
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold text-secondary">50K+</div>
-                    <div className="text-sm text-muted-foreground">
-                      Plastics Recycled
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* Transformation Process */}
