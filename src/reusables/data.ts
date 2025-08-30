@@ -208,7 +208,7 @@ export const teamMembers: TeamMember[] = [
         name: "Opeyemi Afuwape",
         title: "Community Connector",
         location: "Lagos, Nigeria",
-        image: Victor,
+        image: Opeyemi,
         bio: "Opeyemi is the heart of ReImagine Plastics, building community partnerships and ensuring the project meets local needs while creating global impact.",
         longBio: "Opeyemi Afuwape, community connector for ReImagine Plastics, builds partnerships with schools, organizations, and leaders to empower youth as changemakers. With her background in community development and education, she ensures the project remains rooted in local needs while driving lasting impact.",
         achievements: [
