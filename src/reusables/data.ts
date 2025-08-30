@@ -3,7 +3,6 @@ import Ope from "../assets/Ope.jpg";
 import Victor from "../assets/Victor.jpg";
 import Pelumi from "../assets/Pelumi.jpg";
 import Opeyemi from "../assets/Opeyemi.jpg";
-import artGalleryPreview from "@/assets/art-gallery-preview.jpg";
 
 import {
     Heart,
@@ -93,10 +92,7 @@ export interface TeamMember {
     achievements: string[];
     expertise: string[];
     social: {
-        instagram: string;
-        twitter: string;
         linkedin: string;
-        email: string;
     };
 }
 
@@ -121,10 +117,7 @@ export const teamMembers: TeamMember[] = [
             "Community Organizing"
         ],
         social: {
-            instagram: "@sarahchenart",
-            twitter: "@sarahchenenviro",
-            linkedin: "sarah-chen-reimagine",
-            email: "sarah@reimagineplastics.org",
+            linkedin: "https://www.linkedin.com/in/opemipo-akinwumi/",
         },
     },
     {
@@ -147,10 +140,7 @@ export const teamMembers: TeamMember[] = [
             "Program Development"
         ],
         social: {
-            instagram: "@marcusforchange",
-            twitter: "@marcuscleanup",
-            linkedin: "marcus-johnson-youth",
-            email: "marcus@reimagineplastics.org",
+            linkedin: "https://www.linkedin.com/in/ayodejiades/",
         },
     },
     {
@@ -172,10 +162,7 @@ export const teamMembers: TeamMember[] = [
             "Scientific Communication"
         ],
         social: {
-            instagram: "@drpatelocean",
-            twitter: "@aishamarinelab",
             linkedin: "www.linkedin.com/in/victor-oladimeji-a5a68428b",
-            email: "oladimejivictor611@gmail.com",
         },
     },
     {
@@ -197,10 +184,7 @@ export const teamMembers: TeamMember[] = [
             "Nonprofit Management"
         ],
         social: {
-            instagram: "https://www.instagram.com/pelumi.oyetade?igsh=MXF1OWNuajZmZ3k0dQ%3D%3D&utm_source=qr",
-            twitter: "https://x.com/lumideyforyou?s=21",
             linkedin: "https://www.linkedin.com/in/pelumioyetade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            email: "oyetadejennifer@gmail.com",
         },
     },
     {
@@ -222,10 +206,7 @@ export const teamMembers: TeamMember[] = [
             "Nonprofit Management"
         ],
         social: {
-            instagram: "@elenapartnerships",
-            twitter: "@elenaconnects",
-            linkedin: "elena-rodriguez-partnerships",
-            email: "elena@reimagineplastics.org",
+            linkedin: "https://www.linkedin.com/in/afuwape-opeyemi-7919292a1/",
         },
     },
 ];

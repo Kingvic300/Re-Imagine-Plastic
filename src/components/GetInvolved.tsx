@@ -1,12 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import {
-  Calendar,
-  MapPin,
-  Clock,
-  Star,
-  QrCode
-} from "lucide-react";
+import { Calendar, MapPin, Clock, Star } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -15,13 +9,11 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { actionCards, upcomingEvents } from "@/reusables/data";
+import whatsapp_qr from "@/assets/whatsapp-qr.png";
 
 const GetInvolved = () => {
   return (
-      <section
-          id="get-involved"
-          className="py-20 bg-gradient-to-br from-muted/30 to-background"
-      >
+      <section id="get-involved" className="py-20 bg-gradient-to-br from-muted/30 to-background">
         <div className="container mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16">
@@ -41,13 +33,8 @@ const GetInvolved = () => {
             {actionCards.map((card, index) => {
               const Icon = card.icon;
               return (
-                  <Card
-                      key={index}
-                      className={`${card.delay} card-hover overflow-hidden relative`}
-                  >
-                    <div
-                        className={`absolute inset-0 bg-gradient-to-br ${card.color} opacity-5`}
-                    />
+                  <Card key={index} className={`${card.delay} card-hover overflow-hidden relative`}>
+                    <div className={`absolute inset-0 bg-gradient-to-br ${card.color} opacity-5`} />
                     <CardHeader className="text-center relative z-10">
                       <div className="text-primary mb-4 mx-auto">
                         <Icon className="w-12 h-12" />
@@ -55,9 +42,7 @@ const GetInvolved = () => {
                       <CardTitle className="text-2xl font-bold">{card.title}</CardTitle>
                     </CardHeader>
                     <CardContent className="relative z-10">
-                      <p className="text-muted-foreground mb-6 text-center">
-                        {card.description}
-                      </p>
+                      <p className="text-muted-foreground mb-6 text-center">{card.description}</p>
                       <ul className="space-y-2 mb-6">
                         {card.features.map((feature, i) => (
                             <li key={i} className="flex items-start text-sm">
@@ -84,14 +69,10 @@ const GetInvolved = () => {
               <Calendar className="w-8 h-8 text-primary mr-3" />
               Upcoming Events
             </h3>
-
             <div className="space-y-4">
               {upcomingEvents.length > 0 ? (
                   upcomingEvents.map((event, index) => (
-                      <Card
-                          key={index}
-                          className="card-hover border-l-4 border-l-primary"
-                      >
+                      <Card key={index} className="card-hover border-l-4 border-l-primary">
                         <CardContent className="p-4">
                           <div className="flex items-start justify-between">
                             <div className="flex-1">
@@ -113,9 +94,7 @@ const GetInvolved = () => {
                               </div>
                             </div>
                             <div className="text-right">
-                              <div className="text-xs text-accent-coral font-medium mb-2">
-                                {event.spots}
-                              </div>
+                              <div className="text-xs text-accent-coral font-medium mb-2">{event.spots}</div>
                               <Button size="sm" variant="outline">
                                 Register
                               </Button>
@@ -145,8 +124,8 @@ const GetInvolved = () => {
                 Ready to <span className="gradient-text">ReImagine</span> the Future?
               </h3>
               <p className="text-lg text-muted-foreground mb-8">
-                Every piece of plastic you transform, every youth you inspire, every community
-                you engage brings us closer to a cleaner, more creative world.
+                Every piece of plastic you transform, every youth you inspire, every community you
+                engage brings us closer to a cleaner, more creative world.
               </p>
 
               {/* WhatsApp Join Button with QR Modal */}
@@ -161,7 +140,11 @@ const GetInvolved = () => {
                     <DialogTitle>📱 Scan to Join Our Community</DialogTitle>
                   </DialogHeader>
                   <div className="p-4 bg-white rounded-lg shadow-md inline-block mx-auto">
-                    <QrCode className="w-40 h-40 text-primary animate-pulse-glow" />
+                    <img
+                        src={whatsapp_qr}
+                        alt="WhatsApp QR Code"
+                        className="w-40 h-40 mx-auto"
+                    />
                   </div>
                   <p className="text-sm text-muted-foreground mt-4">
                     Open your camera and scan the QR code to join instantly!
