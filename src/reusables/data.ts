@@ -2,6 +2,7 @@ import Ayodeji from "../assets/Ayodeji.jpg";
 import Ope from "../assets/Ope.jpg";
 import Victor from "../assets/Victor.jpg";
 import Pelumi from "../assets/Pelumi.jpg";
+import Opeyemi from "../assets/Opeyemi.jpg";
 import artGalleryPreview from "@/assets/art-gallery-preview.jpg";
 
 import {
@@ -175,7 +176,7 @@ export const teamMembers: TeamMember[] = [
         name: "Opeyemi Afuwape",
         title: "Community Connector",
         location: "Bariga Lagos, Nigeria",
-        image: Victor,
+        image: Opeyemi,
         bio: "Opeyemi is the heart of ReImagine Plastics, building community partnerships and ensuring the project meets local needs while creating global impact.",
         longBio: "Opeyemi Afuwape, community connector for ReImagine Plastics, builds partnerships with schools, organizations, and leaders to empower youth as changemakers. With her background in community development and education, she ensures the project remains rooted in local needs while driving lasting impact.",
         achievements: ["200+ School Partnerships", "Community Builder Award 2023", "Trilingual Program Leader"],
