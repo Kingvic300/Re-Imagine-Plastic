@@ -9,7 +9,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { actionCards, upcomingEvents } from "@/reusables/data";
-import whatsapp_qr from "@/assets/whatsapp-qr.png";
+import whatsapp_qr from "@/assets/whatsapp_qr.png";
 
 const GetInvolved = () => {
   return (
