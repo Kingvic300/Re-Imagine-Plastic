@@ -8,7 +8,7 @@ const ProblemSolution = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <div className="slide-in-up">
-              <AlertTriangle className="w-16 h-16 text-destructive mx-auto mb-6" />
+              <AlertTriangle className="w-16 h-16 text-destructive mx-auto mb-6 " />
               <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-destructive">
                 The Plastic Crisis
               </h2>

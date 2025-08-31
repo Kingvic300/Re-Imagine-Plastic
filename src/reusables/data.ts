@@ -155,7 +155,7 @@ export const teamMembers: TeamMember[] = [
         id: 4,
         name: "Pelumi Oyetade",
         title: "Design Eye & Creative Lead",
-        location: "Bariga Lagos, Nigeria",
+        location: "Lagos, Nigeria",
         image: Pelumi,
         bio: "Oluwapelumi is the creative force at ReImagine Plastics, transforming waste into art and inspiring young people to explore sustainable design.",
         longBio: "Oluwapelumi Oyetade, creative lead of ReImagine Plastics, blends art and sustainability to show young people the potential in plastic waste. She designs training materials and art pieces that inspire creativity, change mindsets, and spark action.",
