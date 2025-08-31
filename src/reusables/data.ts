@@ -34,11 +34,8 @@ export const footerSections: FooterSection[] = [
     {
         title: "Programs",
         links: [
-            "Youth Workshops",
             "Community Cleanups",
             "Art Gallery",
-            "Leadership Training",
-            "School Partnerships",
         ],
     },
     {
@@ -48,17 +45,6 @@ export const footerSections: FooterSection[] = [
             "Donate",
             "Collaborate",
             "Sponsor Events",
-            "Join Mailing List",
-        ],
-    },
-    {
-        title: "Resources",
-        links: [
-            "Impact Reports",
-            "Educational Materials",
-            "Press Kit",
-            "Research Papers",
-            "Success Stories",
         ],
     },
     {
@@ -101,7 +87,7 @@ export const teamMembers: TeamMember[] = [
         id: 1,
         name: "Opemipo Akinwumi",
         title: "Project Lead & Dream Driver",
-        location: "Ikeja, Lagos, Nigeria",
+        location: "Lagos, Nigeria",
         image: Ope,
         bio: "Opemipo drives ReImagine Plastics with a passion for climate action and youth empowerment, turning ideas into projects and making every plastic count as art, not waste.",
         longBio:
@@ -124,7 +110,7 @@ export const teamMembers: TeamMember[] = [
         id: 2,
         name: "Ayodeji Adesegun",
         title: "Tech Brain & Builder",
-        location: "Bagada, Lagos, Nigeria",
+        location: "Lagos, Nigeria",
         image: Ayodeji,
         bio: "Ayodeji, the tech lead at ReImagine Plastics, leverages his passion for AI and programming to build innovative solutions that keep the project scalable and impactful.",
         longBio:
@@ -147,7 +133,7 @@ export const teamMembers: TeamMember[] = [
         id: 3,
         name: "Oladimeji Victor",
         title: "Code Wizard",
-        location: "Satellite town, Lagos, Nigeria",
+        location: "Lagos, Nigeria",
         image: Victor,
         bio: "Victor is the coder behind ReImagine Plastics, building the web and backend systems that power the project’s vision.",
         longBio: "Victor Oladimeji is the tech mind behind ReImagine Plastics, building web and backend systems that make recycling interactive and accessible. His work empowers young people to become agents of change, while he continues creating ideas that make tech work for the planet.",
@@ -157,7 +143,7 @@ export const teamMembers: TeamMember[] = [
             "Scientific Advisor to UN"
         ],
         expertise: [
-            "Marine Biology",
+            "Software Engineering",
             "Plastic Pollution Research",
             "Scientific Communication"
         ],
@@ -179,9 +165,9 @@ export const teamMembers: TeamMember[] = [
             "Trilingual Program Leader"
         ],
         expertise: [
-            "Partnership Development",
-            "Cultural Competency",
-            "Nonprofit Management"
+            "Public Speaking",
+            "Content Creation",
+            "Design Principles"
         ],
         social: {
             linkedin: "https://www.linkedin.com/in/pelumioyetade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
